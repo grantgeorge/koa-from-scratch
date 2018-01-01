@@ -1,0 +1,46 @@
+{
+  "name": "koa-from-scratch",
+  "version": "0.0.1",
+  "description": "Koa from scratch",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_PATH=src NODE_ENV=development nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grantgeorge/koa-from-scratch.git"
+  },
+  "author": "Grant George <grant@grantgeorge.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grantgeorge/koa-from-scratch/issues"
+  },
+  "homepage": "https://github.com/grantgeorge/koa-from-scratch#readme",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "cross-env": "^5.1.3",
+    "ioredis": "^3.2.2",
+    "koa": "^2.4.1",
+    "koa-compress": "^2.0.0",
+    "koa-conditional-get": "^2.0.0",
+    "koa-etag": "^3.0.0",
+    "koa-json": "^2.0.2",
+    "koa-json-error": "^3.1.2",
+    "koa-logger": "^3.1.0",
+    "koa-ratelimit": "^4.0.0",
+    "koa-redis": "^3.1.1",
+    "koa-response-time": "^2.0.0",
+    "koa-router": "^7.3.0",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.14.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "nodemon": "^1.14.7"
+  }
+}

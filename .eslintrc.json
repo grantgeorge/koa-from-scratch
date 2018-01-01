@@ -1,0 +1,19 @@
+{
+  "env": {
+    "node": true,
+    "mocha": true
+  },
+  "extends": ["standard"],
+  "plugins": ["standard", "promise"],
+  "rules": {
+    "comma-dangle": ["error", "always-multiline"],
+    "space-before-function-paren": ["error", "never"],
+    "arrow-parens": "error",
+    "eqeqeq": "error",
+    "no-return-assign": "error",
+    "semi": ["error", "never"],
+    "space-before-function-paren": ["error", "never"],
+    "arrow-spacing": "error",
+    "dot-location": ["error", "property"]
+  }
+}
